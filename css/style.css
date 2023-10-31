@@ -1,3 +1,9 @@
+:root {
+    --darkBlue: #2a315f;
+    --midBlue: #585c7c;
+    --gold: #ffb858;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -18,7 +24,7 @@ header {
 }
 
 body {
-    background-color: #2a315f;
+    background-color: var(--darkBlue);
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
@@ -106,7 +112,7 @@ model-viewer {
 .button {
     color: white;
     text-decoration: none;
-    background-color: #ffb859;
+    background-color: var(--gold);
     padding: 8px 20px;
     display: inline-block;
     border-radius: 15px;
@@ -115,7 +121,7 @@ model-viewer {
 }
 
 .buttonB {
-    background-color: #585C7C;
+    background-color: var(--midBlue);
 }
 
 .button:hover {
