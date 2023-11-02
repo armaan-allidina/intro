@@ -118,6 +118,7 @@ model-viewer {
     border-radius: 15px;
     font-size: 20px;
     font-weight: 700;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, .5);
 }
 
 .buttonB {
@@ -140,6 +141,14 @@ model-viewer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
     align-items: center;
+}
+
+.moonTrip img {
+    transition: 1s;
+}
+
+.moonTrip img:hover {
+    transform: scale(1.2);
 }
 
 .plutoTrip img {
