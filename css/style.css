@@ -156,7 +156,8 @@ model-viewer {
     transition: 1s;
     grid-column: 3;
 }
-.plutoTrip img:hover{
+
+.plutoTrip img:hover {
     transform: scale(1.2);
 }
 
@@ -165,3 +166,12 @@ model-viewer {
     grid-row: 1;
     text-align: right;
 }
+
+@media screen and (max-width: 800px) {
+    .t,.c1  ,.moontrip, .plutoTrip{
+        grid-template-columns: 1fr;
+    }
+    .c1 a{
+        grid-column: 1;
+    }
+  }
