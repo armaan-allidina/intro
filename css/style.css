@@ -152,7 +152,11 @@ model-viewer {
 }
 
 .plutoTrip img {
+    transition: 1s;
     grid-column: 3;
+}
+.plutoTrip img:hover{
+    transform: scale(1.2);
 }
 
 .plutoTrip div {
